@@ -258,6 +258,7 @@ namespace LanDeskServiceDeskAPIWrapper
             return ldi;
         }
 
+        // TODO: Fix missing form elements below for item creation.
         /// <summary>
         /// Creates and Saves a new LanDesk Item.
         /// </summary>
