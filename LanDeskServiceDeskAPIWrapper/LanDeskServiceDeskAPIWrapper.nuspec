@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>LanDeskServiceDeskAPIWrapper</id>
+		<version>0.0.0.1</version>
+		<title>LanDeskServiceDeskAPIWrapper</title>
+		<authors>JCPS IT</authors>
+		<owners>JCPS IT</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Library for using the LanDesk Service Desk Api.</description>
+		<releaseNotes>The first pass at creating a library for LanDesk Service Desk.</releaseNotes>
+		<copyright>Copyright 2016</copyright>
+		<tags>LanDesk</tags>
+		<dependencies>
+			<group>
+        <dependency id="Newtonsoft.Json" version="8.0.3" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="LanDeskServiceDeskAPIWrapper.dll" target="lib\net45\" />
+		<file src="LanDeskServiceDeskAPIWrapper.pdb" target="lib\net45\" />
+		<file src="readme.txt" target="" />
+	</files>
+</package>
